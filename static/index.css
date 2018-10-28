@@ -1,0 +1,47 @@
+html, body {
+  height: 100%;
+}
+
+* {
+  font-size: 1.1rem;
+}
+
+/* * {
+  border: 1px red dashed;
+} */
+
+button {
+  font-size: 1.1rem;
+  padding: 6px 12px 6px 12px;
+  border-radius: 6px;
+  background-color: rgb(61, 61, 218);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content_wrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#choice_wrapper {
+  width: 33.33%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.input_choice {
+  width: 45%;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
