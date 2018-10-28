@@ -10,6 +10,10 @@ html, body {
   border: 1px red dashed;
 } */
 
+input {
+  border-width: 1px;
+}
+
 button {
   font-size: 1.1rem;
   padding: 6px 12px 6px 12px;
